@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="DungeonPlatformer"
-run/main_scene="res://node_2d.tscn"
+run/main_scene="uid://soviqxd1ja4j"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -24,3 +24,4 @@ window/stretch/mode="canvas_items"
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
